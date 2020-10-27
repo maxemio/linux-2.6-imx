@@ -116,7 +116,7 @@
     };
     partition@2 {
         label = "main-rootfs";
-        reg = <0x00400000 0x06400000>;
+        reg = <0x00400000 0x03C00000>;
     };
         partition@3 {
         label = "fallback-rootfs";
